@@ -1,0 +1,82 @@
+.main {
+    width: 50%;
+    height: max-content;
+    min-height: 100vh;
+    border: 1px solid #ccc;
+}
+
+.main__header {
+    width: 100%;
+    height: 12rem;
+    border: 1px solid #ccc;
+}
+
+.header__main {
+    display: flex;
+    padding: 0.8rem;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+}
+.header__main span {
+    font-size: 1.4rem;
+    font-weight: 900;
+}
+.header__main .MuiSvgIcon-root {
+    font-size: 2rem;
+    color: #1DA1F2;
+}
+
+.tweet__header {
+    width: 100%;
+    height: 70%;
+    display: flex;
+}
+.tweet__avatar {
+    width: 5%;
+    height: 80%;
+    padding: .5rem;
+    margin-right: 1rem;
+}
+.tweet__avatar .MuiSvgIcon-root {
+    font-size: 3rem;
+}
+.tweet__window {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.tweet__window input {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1.3rem;
+    outline: none;
+    border: none;
+}
+
+.tweet__options {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tweet__options input {
+    display: none;
+}
+
+.tweet__options button {
+    font-size: 1.2rem;
+    padding: 0.4rem 2rem;
+    border-radius: 30px;
+    background-color: #1DA1F2;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.tweet__options .MuiSvgIcon-root {
+    color: #1DA1F2;
+    cursor: pointer;
+}

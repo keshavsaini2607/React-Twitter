@@ -1,0 +1,49 @@
+.leftBar {
+    width: 25%;
+    height: 100vh;
+}
+
+.leftLogo {
+    padding: 1rem;
+}
+.leftLogo .MuiSvgIcon-root {
+    font-size: 2vw;
+    color: #1DA1F2;
+}
+
+.leftMenu span {
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    margin-left: 1rem;
+    font-weight: 600;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+.active {
+    color: #1DA1F2;
+}
+.active .MuiSvgIcon-root {
+    color: #1DA1F2;
+}
+
+.leftMenu span .MuiSvgIcon-root {
+    font-size: 2rem;
+    margin-right: 2rem;
+}
+
+.tweetButton {
+    margin-top: 2rem;
+}
+.tweetButton button {
+    padding: 0.5rem 2rem;
+    font-size: 1.7rem;
+    width: 90%;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    background-color: #1DA1F2;
+    color: white;
+    cursor: pointer;
+}
